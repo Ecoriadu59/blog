@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/barre.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">Articles</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div>
+  <div style="text-align: center; border-style: groove; float: center;">
+  	<h1>Test</h1>
+  	<img src="https://th.bing.com/th/id/Rc95b7bb359520f9aa6d6c7aa4c028696?rik=mfAUNf%2bHOx6KfA&riu=http%3a%2f%2fjcsatanas.fr%2fwp-content%2fuploads%2f2016%2f01%2ffond-ecran-080116-iphone-4.jpg">
+  </div>
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
